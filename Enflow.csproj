@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<PackageId>EnflowWithLinqKit</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Fabiohvp</Authors>
+	<Company>Fabiohvp</Company>
+	<Title>An improved version of Enflow using LinqKit</Title>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="1.1.16" />
+  </ItemGroup>
+</Project>
